@@ -1,0 +1,278 @@
+.banner{
+    background-image: url(./images/baner.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+/* estilos para el menu de navegacion  */
+.color-navbar{
+    background-color:rgb(19, 19, 17);
+    opacity: 0.75;
+}
+.saludo{
+    color: white;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-cabeza{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+}
+/* los li */
+.branding{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* margin-left: 35px; */
+}
+.branding:hover{
+    text-decoration: none;
+    color: slategrey;
+}
+.hover{
+    padding: 12px;
+    margin-right: 10px;
+    transition: all 0.28s;
+}
+.hover:hover{
+    background-color:#92949C;
+    border-radius: 5px;
+}
+.ancla{
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.ancla:hover{
+    text-decoration: none;
+    color: #C8C7C5;
+}
+.texto{
+    color: white;
+    background-color: white;
+}
+
+.margen{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* clases de iconos */
+
+.estilo-icono{
+    background-color: #313131;
+    padding: 20px;
+    border-radius: 50%; 
+    font-size: 50px;
+    color: white;
+    transition: all 0.25s;
+}
+.estilo-icono:hover{
+    background-color: #C8C7C5;
+    color: #313131;
+}
+.icono-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulares{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #92949C;
+}
+.parrafo{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.imagen-nosotros{
+    border-radius: 5px;
+}
+/* clase para portafolio */
+.portafolio{
+    width: 100%;
+    height: 235px;
+}
+.subtitulos-portafolio{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.fondo{
+    background-color:#313131 ;
+    padding: 30px;
+}
+.boton{
+    text-align: center;
+    background-color: #92949C;
+    border-radius: 35px;
+    padding: 10px;
+}
+.boton:hover{
+    background-color: #939C9C;
+}
+.ancla-boton{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.ancla-boton:hover{
+    color: #C8C7C5;
+}
+.hover-card{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+.hover-card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* todas las clases para nuestros planes */
+.titulo-plan{
+    background-color: #939C9C;
+    padding: 20px;
+    text-align: center;
+    color: #313131;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.parrafo-planes{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.alinear{
+    display: flex;
+    justify-content: left;
+}
+.estilo-planes{
+    color: green;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.precio{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #939C9C;
+    font-size: 32px;
+}
+
+/* todas las clases para el equipo */
+.imagen-equipo{
+    width: 150px;
+    height: 150px;
+}
+.alinear-equipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.estilo-icono-equipo{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 50%; 
+    font-size: 12px;
+    color: white;
+    transition: all 0.25s;
+}
+.estilo-icono-equipo:hover{
+    background-color: #C8C7C5;
+    color: #313131;
+}
+.estilo-instagram{
+    background-color: #E1306C;
+    padding: 8px;
+    border-radius: 50%; 
+    font-size: 12px;
+    color: white;
+    transition: all 0.25s;
+}
+.estilo-instagram:hover{
+    background-color: #C8C7C5;
+    color: #313131;
+}
+.equipo-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nombre{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.profesion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.nivel{
+    font-size: 20px;
+}
+.fondo-equipo{
+    background-color:#313131 ;
+    padding: 30px;
+}
+.card-equipo{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+.card-equipo:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* estilos de la seccion de contacto */
+.icono-contacto{
+    color: #92949C;
+    font-size: 35px;
+    margin-right: 35px;
+}
+.imagen-contact{
+    border-radius: 15px;
+    height: 350px;
+    width: 100%;
+}
+.titulo-contact{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #313131;
+}
+.informacion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+/* clase pie de pagina */
+.pie{
+    background-color: #313131;
+    margin: 0px;
+    padding: 0px;
+}
+.texto-pie{
+    margin:0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
