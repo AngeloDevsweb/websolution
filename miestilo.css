@@ -127,7 +127,18 @@
     border-radius: 35px;
     padding: 10px;
 }
+.boton2{
+    text-align: center;
+    background-color: #92949C;
+    border-radius: 35px;
+    padding: 10px;
+    width: 180px;
+    font-size: 20px;
+}
 .boton:hover{
+    background-color: #939C9C;
+}
+.boton2:hover{
     background-color: #939C9C;
 }
 .ancla-boton{
@@ -261,6 +272,11 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+.consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* clase pie de pagina */
 .pie{
